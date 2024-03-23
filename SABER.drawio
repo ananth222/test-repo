@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T14:55:45.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="TDPdvGQt8_Qfsmy8NFu9" version="24.0.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-23T02:09:54.298Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="G0QtA2B7FW4XLEzkM_4c" version="24.0.7" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1227" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-24" value="Compute likelihood of extreme weather event" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="220" y="30" width="80" height="60" as="geometry" />
+          <mxGeometry x="130" y="30" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-30" value="Compute likelihood of outages due to extreme weather (Baseline) " style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="350" y="20" width="120" height="80" as="geometry" />
@@ -39,60 +39,24 @@
             <mxPoint x="540.0000000000002" y="65" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-19" source="kzs3K-7DPgvp49Ke8Xy6-28" target="dNxyNK7c78bLwvsdeMH5-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="&lt;div&gt;Resilience Upgrade &lt;br&gt;&lt;/div&gt;&lt;div&gt;Deployment&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=30;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="240" width="900" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-12" value="&lt;div&gt;High resolution&amp;nbsp;&lt;/div&gt;&lt;div&gt;grid topology&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="130" y="35" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-18" value="&lt;div&gt;Resilience&amp;nbsp;&lt;/div&gt;&lt;div&gt;upgrade plan&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="270" y="35" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-22" source="kzs3K-7DPgvp49Ke8Xy6-22" target="kzs3K-7DPgvp49Ke8Xy6-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-22" value="&lt;div&gt;Initiate&amp;nbsp;&lt;/div&gt;&lt;div&gt;Resilience&amp;nbsp;&lt;/div&gt;&lt;div&gt;Plan&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="40" y="140" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-28" value="&lt;div align=&quot;left&quot;&gt;1. Identify vulnerable segment&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. Prepare resilience upgrade plan&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. Provide consumer topology&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="160" y="120" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-37" value="&lt;div&gt;Consumer&amp;nbsp;&lt;/div&gt;&lt;div&gt;topology&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
-          <mxGeometry x="410" y="40" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="u6RPvg0BcIfvfA5v8kgQ-1" target="u6RPvg0BcIfvfA5v8kgQ-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-8" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u6RPvg0BcIfvfA5v8kgQ-7">
-          <mxGeometry x="-0.5333" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-19" source="kzs3K-7DPgvp49Ke8Xy6-28" target="dNxyNK7c78bLwvsdeMH5-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="80" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-1" value="&lt;div&gt;Is economic&amp;nbsp;&lt;/div&gt;&lt;div&gt;value sufficient?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="590" y="40" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-2" value="&lt;div&gt;Deploy &lt;br&gt;&lt;/div&gt;&lt;div&gt;Resilience&amp;nbsp;&lt;/div&gt;&lt;div&gt;Upgrades&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="790" y="55" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="u6RPvg0BcIfvfA5v8kgQ-1" target="u6RPvg0BcIfvfA5v8kgQ-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-4" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u6RPvg0BcIfvfA5v8kgQ-3">
-          <mxGeometry x="-0.4639" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="wFdD_jxEq5CcSTyvmoxe-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="kzs3K-7DPgvp49Ke8Xy6-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="290" as="sourcePoint" />
+            <mxPoint x="510" y="280" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-5" value="Revise resilience upgrade plan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="610" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kzs3K-7DPgvp49Ke8Xy6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-19" source="kzs3K-7DPgvp49Ke8Xy6-28" target="kzs3K-7DPgvp49Ke8Xy6-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="270" />
-              <mxPoint x="560" y="270" />
+              <mxPoint x="280" y="280" />
+              <mxPoint x="560" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -106,27 +70,93 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="u6RPvg0BcIfvfA5v8kgQ-5" target="dNxyNK7c78bLwvsdeMH5-24">
+        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-19" source="kzs3K-7DPgvp49Ke8Xy6-36" target="u6RPvg0BcIfvfA5v8kgQ-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="&lt;div&gt;Resilience Upgrade &lt;br&gt;&lt;/div&gt;&lt;div&gt;Deployment&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=30;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
+          <mxGeometry x="20" y="240" width="900" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-12" value="&lt;div&gt;High resolution&amp;nbsp;&lt;/div&gt;&lt;div&gt;grid topology&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="100" y="65" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-18" value="&lt;div&gt;Resilience&amp;nbsp;&lt;/div&gt;&lt;div&gt;upgrade plan&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="430" y="65" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-22" source="kzs3K-7DPgvp49Ke8Xy6-22" target="kzs3K-7DPgvp49Ke8Xy6-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-22" value="&lt;div&gt;Initiate&amp;nbsp;&lt;/div&gt;&lt;div&gt;Resilience&amp;nbsp;&lt;/div&gt;&lt;div&gt;Plan&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="40" y="140" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-28" value="&lt;div align=&quot;left&quot;&gt;1. Identify vulnerable segment&amp;nbsp;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2. Prepare resilience upgrade plan&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3. Provide consumer topology&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="160" y="120" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="dNxyNK7c78bLwvsdeMH5-22" source="u6RPvg0BcIfvfA5v8kgQ-1" target="u6RPvg0BcIfvfA5v8kgQ-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-8" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u6RPvg0BcIfvfA5v8kgQ-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.5333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-1" value="&lt;div&gt;Is economic&amp;nbsp;&lt;/div&gt;&lt;div&gt;value sufficient?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="590" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-2" value="&lt;div&gt;Deploy &lt;br&gt;&lt;/div&gt;&lt;div&gt;Resilience&amp;nbsp;&lt;/div&gt;&lt;div&gt;Upgrades&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="790" y="55" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="dNxyNK7c78bLwvsdeMH5-22" source="u6RPvg0BcIfvfA5v8kgQ-1" target="u6RPvg0BcIfvfA5v8kgQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-4" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u6RPvg0BcIfvfA5v8kgQ-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.4639" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdD_jxEq5CcSTyvmoxe-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="u6RPvg0BcIfvfA5v8kgQ-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="250" as="targetPoint" />
+            <mxPoint x="540" y="10" as="targetPoint" />
+            <mxPoint x="640" y="180" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="590" y="430" />
-              <mxPoint x="590" y="340" />
-              <mxPoint x="280" y="340" />
+              <mxPoint x="571" y="190" />
+              <mxPoint x="571" y="10" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="kzs3K-7DPgvp49Ke8Xy6-36" target="u6RPvg0BcIfvfA5v8kgQ-1">
+        <mxCell id="u6RPvg0BcIfvfA5v8kgQ-5" value="Revise resilience upgrade plan" style="rounded=0;whiteSpace=wrap;html=1;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="610" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wFdD_jxEq5CcSTyvmoxe-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="kzs3K-7DPgvp49Ke8Xy6-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="90" as="sourcePoint" />
+            <mxPoint x="260" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFdD_jxEq5CcSTyvmoxe-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="kzs3K-7DPgvp49Ke8Xy6-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="10" as="sourcePoint" />
+            <mxPoint x="410" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-37" value="&lt;div&gt;Consumer&amp;nbsp;&lt;/div&gt;&lt;div&gt;topology&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
+          <mxGeometry x="430" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wFdD_jxEq5CcSTyvmoxe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="kzs3K-7DPgvp49Ke8Xy6-5" target="kzs3K-7DPgvp49Ke8Xy6-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kzs3K-7DPgvp49Ke8Xy6-15" target="dNxyNK7c78bLwvsdeMH5-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kzs3K-7DPgvp49Ke8Xy6-15" target="kzs3K-7DPgvp49Ke8Xy6-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="kzs3K-7DPgvp49Ke8Xy6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kzs3K-7DPgvp49Ke8Xy6-15" target="dNxyNK7c78bLwvsdeMH5-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="250" />
+              <mxPoint x="250" y="250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kzs3K-7DPgvp49Ke8Xy6-15" value="&lt;div&gt;Historic&amp;nbsp;&lt;/div&gt;&lt;div&gt;weather data&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
